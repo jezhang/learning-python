@@ -1,0 +1,7 @@
+My name is {0},
+I was born in {1},
+And I worked for {2}.
+Thanks.
+
+
+Hello, {name}

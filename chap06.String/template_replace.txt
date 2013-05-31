@@ -1,0 +1,4 @@
+My name is {name},
+I was born in {birthyear},
+And I worked for {company}.
+Thanks.

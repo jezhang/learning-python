@@ -1,0 +1,3 @@
+Greetings...
+Hello %(name)s!
+Your age squared is %(age)s
