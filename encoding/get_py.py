@@ -81,5 +81,5 @@ def main(str_input):
         b= b+i 
     print b 
 if __name__ == "__main__": 
-    str_input='我是中国人' 
+    str_input='我是中国人，朝鲜人民的朝阳' 
     main(str_input) 
