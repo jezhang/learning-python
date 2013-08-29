@@ -1,3 +1,5 @@
+# http://members.3322.org/dyndns/getip
+
 def getip():
     sock = socket.create_connection(('ns1.dnspod.net', 6666))
     ip = sock.recv(16)
