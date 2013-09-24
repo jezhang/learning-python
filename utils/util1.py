@@ -417,7 +417,15 @@ def userdel(user_name):
             wr_log("del user %s" % user_name, 1, e) 
 
 def main():
-    wr_log('test hello')
+    # wr_log('test hello')
+    print("starting to download...")
+    wget("http://www.tutorialspoint.com/jsf/jsf_tutorial.pdf","1.pdf")
+    print("finished download...")
+'''
+starting to download...
+finished download...
+[Finished in 195.0s]
+'''
 
 if __name__ == '__main__':
     main()        
