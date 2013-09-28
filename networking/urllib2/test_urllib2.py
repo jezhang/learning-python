@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
 
 import urllib2  
-  
+
+
+'''
+Python urllib2 通过content-length头获取文件大小
+通过HEAD方法可以只读取HTTP应答头而不用下载文件本身，这样可以节省时间和资源。
+常规的方式是使用httplib，这里选择使用urllib2主要是考虑要支持代理。
+'''  
 def get_file_size_by_url(url, proxy=None):  
     """通过content-length头获取文件大小 
     url - 目标文件URL 
