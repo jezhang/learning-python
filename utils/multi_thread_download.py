@@ -178,4 +178,4 @@ def MyHttpGet(url, output=None, connections=4):
 
 
 if __name__ == '__main__':
-    MyHttpGet('http://www.tutorialspoint.com/jsf/jsf_tutorial.pdf','5.pdf',4)
+    MyHttpGet('http://downloads.mongodb.org/win32/mongodb-win32-i386-2.4.6.zip','mongodb-win32-i386-2.4.6.zip',4)
